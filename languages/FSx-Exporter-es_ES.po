@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FSx-Connector Exporter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-23 13:36+0000\n"
+"PO-Revision-Date: 2017-05-23 13:42+0000\n"
+"Last-Translator: redondows <info@redondows.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: schnitzel/fsxe_art_page.php:15
+msgid "All products"
+msgstr "Todos los productos"
+
+#: schnitzel/fsxe_art_page.php:19
+msgid "Products with managed stock"
+msgstr "Productos con gestión de stock"
+
+#: schnitzel/fsxe_art_page.php:25
+msgid "CSV file"
+msgstr "Fichero CSV"
+
+#: schnitzel/fsxe_art_page.php:29
+msgid "HTML table on screen"
+msgstr "Tabla HTML en pantalla"
+
+#: schnitzel/fsxe_art_page.php:35
+msgctxt "admin page title"
+msgid ""
+"FSx-Connector Exporter :: Product Exporter to FactuSOL&trade; for WooCommerce"
+msgstr ""
+"FSx-Connector Exporter :: Product Exporter to FactuSOL&trade; for WooCommerce"
+
+#: schnitzel/fsxe_art_page.php:43
+msgid ""
+"WPML users: You can export the report on a different language by changing it "
+"on this page top bar."
+msgstr ""
+"WPML users: You can export the report on a different language by changing it "
+"on this page top bar."
+
+#: schnitzel/fsxe_art_page.php:266
+msgid "Output"
+msgstr "Salida"
+
+#: classes/class-fsxExporterART.php:151
+msgctxt "admin page title"
+msgid "FSx-Exporter"
+msgstr "FSx-Exporter"
+
+#: classes/class-fsxExporterART.php:152
+msgctxt "admin menu item"
+msgid "FSx-Exporter"
+msgstr "FSx-Exporter"
+
+#: classes/class-fsxExporterART.php:310
+msgid "products"
+msgstr "productos"
+
+#. Name of the plugin
+msgid "FSx-Connector Exporter"
+msgstr "FSx-Connector Exporter"
+
+#. Description of the plugin
+msgid "Product Exporter to FactuSOL for WooCommerce."
+msgstr "Product Exporter to FactuSOL for WooCommerce."
+
+#. URI of the plugin
+msgid "http://www.factusol-woocommerce.es/"
+msgstr "http://www.factusol-woocommerce.es/"
+
+#. Author of the plugin
+msgid "RedondoWS"
+msgstr "RedondoWS"
+
+#. Author URI of the plugin
+msgid "http://www.RedondoWS.com"
+msgstr "http://www.RedondoWS.com"
