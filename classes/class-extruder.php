@@ -153,7 +153,10 @@ class Extruder {
 					else
 						if ($this->extra_data['FSXE_VERBOSE'])
 							$val = $val.' es una cadena demasiado grande. Máximo tamaño: '.$size;
-					if ($this->extra_data['FSXE_OUTPUT']=='csv') $val = '"'.$val.'"';
+						if ($this->extra_data['FSXE_OUTPUT']=='csv') {
+							$val = '"'.str_replace(["'",'"'],'""',$val).'"'; // Escape quotes in content
+							$val = str_replace(['"""'],'"',$val); // Ugly fix for CODART double quotes
+						}
 				break;
 			case 'N':
 				$val = intval($val);
