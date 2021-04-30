@@ -103,14 +103,16 @@ class ExtruderART_2017 extends Extruder {
 		$value = '';
 		if ( $terms ) {
 			foreach ( $terms as $term ) {
-				$value .= trim($term->name) .', ';		// WP_Term Object
+				// $value .= trim($term->name) .', ';		// WP_Term Object
+				$value .= get_term_meta( $term->term_id, 'codigo_familia', true);
 			}
 		}
 		$value = trim($value, ', ');
+		
 
 		return $this->formatColumn( $value, $template['size'], $template['type'] );
 	}
-
+	
 	/* ********************************************************************************************* */
 
 	public function columnF( $onlySchema = false) {
