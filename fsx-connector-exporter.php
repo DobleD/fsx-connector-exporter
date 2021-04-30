@@ -48,7 +48,7 @@ if (    in_array('woocommerce/woocommerce.php', (array) get_option('active_plugi
 		$fsx_exporter = new fsxExporterART();
 	}
 
-	if (class_exists('factusolfamily')) {
+	if (class_exists('FSxProductCategoryExtraFields')) {
 		new FSxProductCategoryExtraFields;
 	};
 
